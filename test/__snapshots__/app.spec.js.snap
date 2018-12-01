@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`routes : events GET /api/event/:tid should successfully retrieve an event by tid 1`] = `
+Object {
+  "data": Array [
+    Object {
+      "created_at": Any<String>,
+    },
+  ],
+  "status": "Success.",
+}
+`;
+
+exports[`routes : events POST /api/event should perform upsert on transaction duplicate 1`] = `
+Object {
+  "data": Array [
+    Object {
+      "created_at": Any<String>,
+    },
+  ],
+  "status": "Success.",
+}
+`;
+
+exports[`routes : events POST /api/event should successfully insert a new event 1`] = `
+Object {
+  "data": Array [
+    Object {
+      "created_at": Any<String>,
+    },
+  ],
+  "status": "Success.",
+}
+`;

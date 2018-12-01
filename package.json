@@ -1,0 +1,26 @@
+{
+  "name": "koa-ps",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.5.2",
+    "knex": "^0.15.2",
+    "koa": "^2.6.2",
+    "koa-bodyparser": "^4.2.1",
+    "koa-logger": "^3.2.0",
+    "koa-morgan": "^1.0.1",
+    "koa-route": "^3.2.0",
+    "pg": "^7.6.1"
+  },
+  "devDependencies": {
+    "jest": "^23.6.0",
+    "request": "^2.88.0",
+    "supertest": "^3.3.0"
+  }
+}
